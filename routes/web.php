@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::view('/', 'home')->name('home');
 Route::view('contact', 'contact')->name('contact');
 
-Route::prefix('powershell')->name('powershell')->group(function () {
+Route::prefix('powershell')->name('powershell.')->group(function () {
     Route::redirect('/', '/powershell/introduction');
     Route::view('introduction', 'windows_powershell.introduction')->name('introduction');
     Route::view('powershell-cmdlets', 'windows_powershell.powershell-cmdlets')->name('powershell-cmdlets');
