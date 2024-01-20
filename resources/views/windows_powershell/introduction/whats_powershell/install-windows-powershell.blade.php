@@ -1,5 +1,5 @@
 <div>
-    <h3 class="text-xl">1.1.c. Install Windows PowerShell:</h3>
+    <h3>1.1.c. Install Windows PowerShell:</h3>
 
     <p>Windows PowerShell is available from Windows by default.</p>
 
@@ -20,18 +20,18 @@
     <p>All course material is written for Windows 10 64 bit (current branch). Through "system information," you can find
         out the version number of your Windows 10 virtual machine:</p>
 
-    <img src="/storage/img/windows_powershell/introduction/install_windows_powershell_1.png" alt="" title="">
-    <img src="/storage/img/windows_powershell/introduction/install_windows_powershell_2.png" alt="" title="">
+    <img src="/assets/img/windows_powershell/introduction/install_windows_powershell_1.png" alt="" title="">
+    <img src="/assets/img/windows_powershell/introduction/install_windows_powershell_2.png" alt="" title="">
 
     <code>Get-ComputerInfo | Select-Object WindowsVersion</code>
 
     <p>You can find out the version of PowerShell through this command:</p>
-    <img src="/storage/img/windows_powershell/introduction/install_windows_powershell_3.png" alt="" title="">
+    <img src="/assets/img/windows_powershell/introduction/install_windows_powershell_3.png" alt="" title="">
 
     <code>$PSVersionTable.PSVersion</code>
 
     <p>Or you can use this pipeline command in PowerShell:</p>
-    <img src="/storage/img/windows_powershell/introduction/install_windows_powershell_4.png" alt="" title="">
+    <img src="/assets/img/windows_powershell/introduction/install_windows_powershell_4.png" alt="" title="">
 
     <code>Get-Host | Select-Object Version</code>
 

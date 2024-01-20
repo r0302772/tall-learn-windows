@@ -1,6 +1,6 @@
 <div>
     <div>
-        <h2 class="text-2xl">1.1. What's PowerShell?</h2>
+        <h2>1.1. What's PowerShell?</h2>
         <p>
             Windows is a graphical operating system where you start and control activities with the mouse. To keep the
             interface nice and tidy, only a limited number of functions are directly accessible. For other functions,
@@ -32,6 +32,7 @@
             command.
         </p>
     </div>
+
     @include('windows_powershell.introduction.whats_powershell.powershell-development')
     @include('windows_powershell.introduction.whats_powershell.use-of-powershell-7')
     @include('windows_powershell.introduction.whats_powershell.install-windows-powershell')

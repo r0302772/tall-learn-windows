@@ -1,5 +1,5 @@
 <div>
-    <h3 class="text-xl">1.1.b. Use of PowerShell 7.0</h3>
+    <h3>1.1.b. Use of PowerShell 7.0</h3>
 
     <p>We also consulted internet sources to investigate the use of PowerShell on different operating systems. These
         were the conclusions:</p>
@@ -11,7 +11,7 @@
             (unless telemetry was disabled).</p>
     </blockquote>
     <div>
-        <img src="/storage/img/windows_powershell/introduction/use_of_powershell_7.0.png" alt="" title="">
+        <img src="/assets/img/windows_powershell/introduction/use_of_powershell_7.0.png" alt="" title="">
     </div>
     <blockquote>
         <p>However, we also can clearly see that our Windows usage has not been growing as significantly, surprising

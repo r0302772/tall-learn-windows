@@ -1,4 +1,8 @@
-<!doctype html>
+@php
+    $lowercaseTitle = $title ?  strtolower(\Illuminate\Support\Str::replace(' ', '-', $title)) : $title;
+@endphp
+
+    <!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,14 +20,20 @@
         {{--  Navigation  --}}
         <x-layout.nav/>
     </header>
-    <main class="container mx-auto p-4 flex-1 px-4">
-        {{-- Title --}}
-        <h1 class="text-3xl mb-4">
-            {{ $subtitle ?? $title ?? "This page has no (sub)title" }}
-        </h1>
-        {{-- Main content --}}
-        {{ $slot }}
-    </main>
+    <div class="NDDoc container mx-auto p-4 flex-1 px-4">
+        <main>
+            <div class="nd-doc">
+                <h1 class="group"
+                    id="{{ $lowercaseTitle }}"
+                    tabindex="-1">
+                    {{ $subtitle ?? $title ?? "This page has no (sub)title" }}
+                    <a href="#{{ $lowercaseTitle }}"
+                       class="header-anchor  group-hover:opacity-100">#</a>
+                </h1>
+                {{ $slot }}
+            </div>
+        </main>
+    </div>
     <x-layout.footer/>
 </div>
 @stack('script')

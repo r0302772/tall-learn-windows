@@ -5,3 +5,62 @@
 [x-cloak] {
     display: none;
 }
+
+@layer base {
+    .NDDoc {
+        @apply pb-0 !important;
+    }
+
+
+    .NDDoc h2 {
+        @apply my-4;
+    }
+
+    .nd-doc .header-anchor{
+       @apply absolute top-0 -left-1 -ml-3.5 font-medium select-none opacity-0 no-underline transition-colors duration-200;
+    }
+
+    .nd-doc a {
+        @apply font-medium text-red-700 underline /*transition-color*/ duration-200 transition-opacity;
+    }
+
+    .nd-doc h1 {
+        @apply tracking-tight leading-10 text-2xl md:text-2xl lg:text-3xl my-3 mx-0;
+    }
+
+    .nd-doc h2 {
+        @apply my-12 mb-4 border-t border-gray-300 pt-6 tracking-tight leading-8 text-lg;
+    }
+
+    .nd-doc h1, .nd-doc h2, .nd-doc h3, .nd-doc h4, .nd-doc h5, .nd-doc h6 {
+        @apply relative font-semibold outline-none;
+    }
+
+    h1, h2, h3, h4 {
+        color: #009cab;
+    }
+
+    h1, h2, h3, h4, h5, h6, li, p {
+        @apply break-words;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        @apply m-0 leading-6 text-base font-normal;
+    }
+
+    a {
+        @apply text-inherit no-underline;
+    }
+
+    h1 {
+        @apply block text-3xl my-3 mx-0 font-bold;
+    }
+
+    h2 {
+        @apply block text-2xl my-3 mx-0 font-bold;
+    }
+
+    p {
+        @apply pb-4;
+    }
+}

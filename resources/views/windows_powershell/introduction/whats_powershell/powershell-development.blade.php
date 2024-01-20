@@ -1,6 +1,6 @@
 <div>
     <div>
-        <h3 class="text-xl">1.1.a. PowerShell Development:</h3>
+        <h3>1.1.a. PowerShell Development:</h3>
 
         <p><u>The ultimate goal:</u> <b>"To be able to configure everything (local and remote) via a command shell."</b>
         </p>
@@ -33,11 +33,11 @@
     </div>
 
     <div>
-        <img src="/storage/img/windows_powershell/introduction/powershell_development.png" alt="" title="">
+        <img src="/assets/img/windows_powershell/introduction/powershell_development.png" alt="" title="">
     </div>
 
     <div>
-        <h4 class="text-lg underline font-bold">What's .NET?</h4>
+        <h4>What's .NET?</h4>
 
         <p>.NET (dotNET) is <u>an application framework that ensures the collaboration of applications and libraries
                 (classes,
@@ -65,7 +65,7 @@
     </div>
 
     <div>
-        <h4 class="text-lg underline font-bold">What's .NET CORE?</h4>
+        <h4>What's .NET CORE?</h4>
 
         <p>.NET Core is the first version of the .NET Framework that is open source and multi-platform.</p>
 
@@ -88,7 +88,7 @@
     </div>
 
     <div>
-        <h4 class="text-lg underline font-bold">Powershell Versions:</h4>
+        <h4>Powershell Versions:</h4>
 
         <p>Windows Powershell 1.0 was launched in 2006 for Windows XP SP2 and SP (service pack3), Windows Server 2003,
             and
