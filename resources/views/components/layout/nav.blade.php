@@ -55,7 +55,7 @@
             <x-dropdown-link href="{{ route('windows-server.devops-and-ci-cd') }}">DNS 🔎</x-dropdown-link>
             <x-dropdown-link href="{{ route('windows-server.devops-and-ci-cd') }}">IIS, HTTPS & Web security 🔐
             </x-dropdown-link>
-            <x-dropdown-link href="{{ route('windows-server.devops-and-ci-cd') }}">Teaming up for Application Security
+            <x-dropdown-link href="{{ route('windows-server.teaming-up-for-application-security-and-building') }}">Teaming up for Application Security
                 🌈 & Building 🔨
             </x-dropdown-link>
             <x-dropdown-link href="{{ route('windows-server.devops-and-ci-cd') }}">Active Directory AGDLP, GPO & DSC 📜

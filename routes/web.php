@@ -48,6 +48,7 @@ Route::prefix('windows-server')->name('windows-server.')->group(function () {
     Route::redirect('/', '/windows-server/devops-and-ci-cd');
     Route::view('devops-and-ci-cd', 'windows_server.devops-and-ci-cd')->name('devops-and-ci-cd');
     Route::view('windows-server-and-ad-ldap', 'windows_server.windows-server-and-ad-ldap')->name('windows-server-and-ad-ldap');
+    Route::view('teaming-up-for-application-security-and-building', 'windows_server.teaming-up-for-application-security-and-building')->name('teaming-up-for-application-security-and-building');
 });
 
 Route::prefix('exercises')->name('exercises.')->group(function () {

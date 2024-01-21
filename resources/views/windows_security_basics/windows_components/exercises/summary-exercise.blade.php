@@ -67,48 +67,48 @@ C:\webProject
         </tr>
         </thead>
         <tbody>
-        <tr>
+        <tr class="border-b">
             <td>C:\webProject</td>
             <td>
                 <ul>
-                    <li>Graphic designer, WebEditor, and WebDeveloper: Generic Read</li>
-                    <li>WebMaster and Administrator: Generic Full Control</li>
-                    <li>All other users: Generic Read</li>
+                    <li>The graphic designer, WebEditor and WebDeveloper may be given read access by default.</li>
+                    <li>The webmaster and administrator get full control of this folder by default.</li>
+                    <li>All other users may also be given read access by default.</li>
                 </ul>
             </td>
         </tr>
-        <tr>
+        <tr class="border-b">
             <td>C:\webProject\images</td>
             <td>
                 <ul>
-                    <li>Graphic designer: Generic Write</li>
-                    <li>WebEditor and WebDeveloper: Generic Read</li>
-                    <li>WebMaster: Generic Full Control</li>
-                    <li>All other users: No Access</li>
+                    <li>The graphic designer may receive default editing rights to this folder</li>
+                    <li>WebEditor and WebDevelopper get read access by default</li>
+                    <li>The webmaster gets full control by default.</li>
+                    <li>All other users cannot access this folder</li>
                 </ul>
             </td>
         </tr>
-        <tr>
+        <tr class="border-b">
             <td>C:\webProject\html</td>
             <td>
                 <ul>
-                    <li>Graphic designer: Generic Read</li>
-                    <li>WebEditor: Generic Write</li>
-                    <li>WebDeveloper: No Access</li>
-                    <li>WebMaster: Generic Full Control</li>
-                    <li>All other users: No Access</li>
+                    <li>The graphic designer gets standard read rights.</li>
+                    <li>The WebEditor gets standard edit rights.</li>
+                    <li>The webDeveloper gets no access.</li>
+                    <li>The webmaster gets full control.</li>
+                    <li>All other users have no access.</li>
                 </ul>
             </td>
         </tr>
-        <tr>
+        <tr class="border-b">
             <td>C:\webProject\js</td>
             <td>
                 <ul>
-                    <li>Graphic designer: No Access</li>
-                    <li>WebEditor: Generic Read</li>
-                    <li>WebDeveloper: Generic Write</li>
-                    <li>WebMaster: Generic Full Control</li>
-                    <li>All other users: No Access</li>
+                    <li>The graphic designer is not granted access.</li>
+                    <li>The WebEditor gets read access by default.</li>
+                    <li>The webDeveloper gets standard edit rights.</li>
+                    <li>The webmaster gets full control.</li>
+                    <li>All other users have no access.</li>
                 </ul>
             </td>
         </tr>
@@ -116,11 +116,11 @@ C:\webProject
             <td>C:\webProject\backup</td>
             <td>
                 <ul>
-                    <li>Graphic designer: No Access</li>
-                    <li>WebEditor: Generic Read</li>
-                    <li>WebDeveloper: No Access</li>
-                    <li>WebMaster: Generic Full Control</li>
-                    <li>All other users: No Access</li>
+                    <li>The graphic designer has no access.</li>
+                    <li>The webEditor has default read access.</li>
+                    <li>The webDeveloper has no access.</li>
+                    <li>The webmaster has full control.</li>
+                    <li>All other users have no access.</li>
                 </ul>
             </td>
         </tr>

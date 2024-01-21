@@ -14,8 +14,6 @@
         granting permissions.
     </p>
 
-    <p>PowerShell command:</p>
-
     <h2>2 Create users</h2>
 
     <p>Create the following users with a PowerShell command:</p>
@@ -50,7 +48,7 @@
 
     <p>
         In the root of the C: drive is the folder PR.
-        The folder "PR" contains 3 subfolders: "budget", "offer", "templates".
+        The folder "PR" contains 3 subfolders: "budget", "quotes", "templates".
     </p>
     <ul>
         <li>In the folder "budget" is the file "advertisingbudget.txt"</li>

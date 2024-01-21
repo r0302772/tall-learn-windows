@@ -36,6 +36,6 @@ c:\video
     <p>User "Producer" must be able to read and edit all directories (Generic Write: Read, Execute, List, Modify, Write).</p>
 
     <h2>7. Permissions for Other Users</h2>
-    <p>Other users can only open the "upload" folder ("raw" and "edit" are not allowed).</p>
+    <p>Other users can only open the "upload" folder ("raw" and "assembly" are not allowed).</p>
 
 </x-learn-windows-layout>

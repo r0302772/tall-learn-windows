@@ -203,6 +203,11 @@
 
     <p>(the last two commands remove the allow or grant permissions for users and authenticated users)</p>
 
+    <pre><code>icacls.exe c:\manual /grant "userGR":(OI)(CI)R</code></pre>
+    <pre><code>icacls.exe c:\manual /grant "userGW":(OI)(CI)M</code></pre>
+    <pre><code>icacls.exe c:\manual /remove:g "users"</code></pre>
+    <pre><code>icacls.exe c:\manual /remove:g "authenticated users"</code></pre>
+
     <img src="/assets/img/exercises/generic_permissions/default_permissions_and_inheritance_15.png" alt="" title="">
 
     <p>Your permissions now look like this:</p>

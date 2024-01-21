@@ -12,7 +12,7 @@
     <pre>
 c:\expenses
 c:\expenses\2020
-c:\onkosten\2021
+c:\expenses\2021
 </pre>
 
     <p>In the expense folder, a file has been created for each representative.</p>
@@ -51,7 +51,7 @@ SalesRep2
         <thead>
         <tr>
             <th>C:\expenses</th>
-            <th>C:\expenses</th>
+            <th>C:\expenses\2020</th>
             <th>Salesrep1.txt</th>
         </tr>
         </thead>
@@ -60,7 +60,7 @@ SalesRep2
             <td>
                 Administrators have all permissions on these files.
 
-                The bookkeeper may modify this folder, and may create new files and folders in this folder.
+                The accountant may modify this folder, and may create new files and folders in this folder.
                 All other users may open this folder (no more than that).
             </td>
             <td>
