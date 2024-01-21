@@ -63,7 +63,7 @@ Route::prefix('exercises')->name('exercises.')->group(function () {
     Route::view('ownership', 'windows_security_basics.windows_components.exercises.exercise-ownership')->name('ownership');
     Route::view('sharing-ownership', 'windows_security_basics.windows_components.exercises.exercise-sharing-ownership')->name('sharing-ownership');
     Route::view('auditing-and-ownership', 'windows_security_basics.windows_components.exercises.exercise-auditing-and-ownership')->name('auditing-and-ownership');
-    Route::view('review-exercise', 'windows_security_basics.windows_components.exercises.review-exercise')->name('review-exercise');
+    Route::view('review-exercise', 'windows_security_basics.windows_components.exercises.review-exercise-powershell-and-files-and-folders')->name('review-exercise');
 });
 
 Route::prefix('config')->name('config.')->group(function () {
