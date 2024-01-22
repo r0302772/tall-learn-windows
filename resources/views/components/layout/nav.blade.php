@@ -125,9 +125,13 @@
             <div class="cursor-pointer">Config</div>
         </x-slot>
         <x-slot name="content">
-            <x-dropdown-link href="{{ route('config.installing-windows-10-on-virtual-box') }}">Installing Windows 10
+            <x-dropdown-link href="{{ route('config.installing-windows-10-on-virtualbox') }}">Installing Windows 10
             </x-dropdown-link>
-            <x-dropdown-link href="{{ route('config.devops-and-security') }}">DevOps & Security
+            <x-dropdown-link href="{{ route('config.installing-windows-server-on-virtualbox') }}">Installing Windows
+                Server
+            </x-dropdown-link>
+            <x-dropdown-link href="{{ route('config.creating-a-shared-folder-between-host-and-vm') }}">Creating a shared
+                folder between host and VM
             </x-dropdown-link>
         </x-slot>
     </x-dropdown>

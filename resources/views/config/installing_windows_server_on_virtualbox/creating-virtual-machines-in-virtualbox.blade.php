@@ -16,23 +16,27 @@
     <h3>3.1.1 Download Windows 10</h3>
     <p>
         Before installing your Windows 10 virtual machine, you can download a trial version of Windows 10 from : <a
-            href="https://www.microsoft.com/en-us/evalcenter/evaluate-windows-10-enterprise">
+                href="https://www.microsoft.com/en-us/evalcenter/evaluate-windows-10-enterprise">
             https://www.microsoft.com/en-us/evalcenter/evaluate-windows-10-enterprise</a>
     </p>
 
-    <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/download_windows_10/download_windows_10_1.png" alt="" title="">
+    <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/download_windows_10/download_windows_10_1.png"
+         alt="" title="">
 
     <p>Choose the "enterprise edition":</p>
 
-    <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/download_windows_10/download_windows_10_2.png" alt="" title="">
+    <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/download_windows_10/download_windows_10_2.png"
+         alt="" title="">
 
     <p>Click on "continue". Enter your registration details: (this may, for example, be your hotmail account)</p>
 
-    <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/download_windows_10/download_windows_10_3.png" alt="" title="">
+    <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/download_windows_10/download_windows_10_3.png"
+         alt="" title="">
 
     <p>Select the "64 bit" , "English version": And click on "download".</p>
 
-    <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/download_windows_10/download_windows_10_4.png" alt="" title="">
+    <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/download_windows_10/download_windows_10_4.png"
+         alt="" title="">
 
     <p>In our example, we downloaded the ISO file to the "c:\sources" folder.</p>
 
@@ -42,15 +46,18 @@
         Try Windows Server 2019 on Microsoft Evaluation Center</a>
     <p>Choose the "ISO" version:</p>
 
-    <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/download_windows_server/download_windows_server_1.png" alt="" title="">
+    <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/download_windows_server/download_windows_server_1.png"
+         alt="" title="">
 
     <p>Enter your registration information the way you did for the Windows 10 download:</p>
 
-    <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/download_windows_server/download_windows_server_2.png" alt="" title="">
+    <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/download_windows_server/download_windows_server_2.png"
+         alt="" title="">
 
     <p>Download the English ISO version:</p>
 
-    <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/download_windows_server/download_windows_server_3.png" alt="" title="">
+    <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/download_windows_server/download_windows_server_3.png"
+         alt="" title="">
 
     <p>In our example, we downloaded the ISO file to the "c:\sources" folder.</p>
 
@@ -69,18 +76,21 @@
         <li>Open Virtual Box</li>
         <li>Go to "File" and select "Preferences".</li>
         <li>In this window you can enter the default folder.</li>
-        <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/set_folder_location_virtual_machines.png" alt="" title="">
+        <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/set_folder_location_virtual_machines.png"
+             alt="" title="">
     </ul>
 
     <h3>3.1.4 Virtual machine 1: DC1</h3>
     <ul>
         <li>In the VirtualBox interface, click the blue star that says "New" under it.</li>
-        <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/virtual_machine_1_dc1/virtual_machine_1_dc1_1.png" alt="" title="">
+        <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/virtual_machine_1_dc1/virtual_machine_1_dc1_1.png"
+             alt="" title="">
         <li>Enter the name of your new virtual machine. The first one you create is "DC1".</li>
         <li>Also select the type. DC1 has as version: "Windows 2019 (64 bit)". You will also see in the wizard the
             default folder that you set in the previous step. Click "Next".
         </li>
-        <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/virtual_machine_1_dc1/virtual_machine_1_dc1_2.png" alt="" title="">
+        <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/virtual_machine_1_dc1/virtual_machine_1_dc1_2.png"
+             alt="" title="">
         <li>DC1 needs 2048 MB memory. Click "Next".</li>
         <li>Leave "Create new virtual hard drive" on and click "Create".</li>
         <li>A VDI file type is good. Continue and click "Next".</li>
@@ -90,16 +100,19 @@
         <p>At the "network" option, keep the default setting "NAT" for now.</p>
         <li><strong>Wait with the installation of Windows Server. We are going to create all virtual machines in Virtual
                 Box first.</strong></li>
-        <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/virtual_machine_1_dc1/virtual_machine_1_dc1_3.png" alt="" title="">
+        <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/virtual_machine_1_dc1/virtual_machine_1_dc1_3.png"
+             alt="" title="">
     </ul>
 
     <h3>3.1.5 Virtual machine 2: WIN10</h3>
     <ul>
         <li>In the VirtualBox interface, click the blue star that says "New" under it.</li>
-        <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/virtual_machine_2_win10/virtual_machine_2_win10_1.png" alt="" title="">
+        <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/virtual_machine_2_win10/virtual_machine_2_win10_1.png"
+             alt="" title="">
         <li>Enter the name of your new virtual machine. The first one you create is "WIN10".</li>
         <li>Also select the type. WIN10 has as version: "Windows 10 (64 bit)". Click "Next".</li>
-        <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/virtual_machine_2_win10/virtual_machine_2_win10_2.png" alt="" title="">
+        <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/virtual_machine_2_win10/virtual_machine_2_win10_2.png"
+             alt="" title="">
         <li>WIN10 requires 1024 MB of memory. Click "Next".</li>
         <li>Leave "Create new virtual hard drive" enabled and click "Create".</li>
         <li>A VDI file type is good. Continue via "Next".</li>
@@ -108,7 +121,8 @@
         <li>Check the settings of the network card of the new virtual machine. You can open this window via the
             settings:
         </li>
-        <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/virtual_machine_2_win10/virtual_machine_2_win10_3.png" alt="" title="">
+        <img src="/assets/img/config/devops_and_security/creating_virtual_machines_in_virtualbox/virtual_machine_2_win10/virtual_machine_2_win10_3.png"
+             alt="" title="">
         <p>Under the option "network" leave the default setting "NAT" for now.</p>
     </ul>
 
@@ -133,9 +147,9 @@
     </ul>
     <p>Your console now looks like this.</p>
 
-    @include('config.devops_and_security.creating_virtual_machines_in_virtualbox.installing-windows')
-    @include('config.devops_and_security.creating_virtual_machines_in_virtualbox.installation-virtual-machine-1-dc')
-    @include('config.devops_and_security.creating_virtual_machines_in_virtualbox.installation-virtual-machine-2-windows-10')
-    @include('config.devops_and_security.creating_virtual_machines_in_virtualbox.overview-virtual-machines')
-    @include('config.devops_and_security.creating_virtual_machines_in_virtualbox.close')
+    @include('config.installing_windows_server_on_virtualbox.creating_virtual_machines_in_virtualbox.installing-windows')
+    @include('config.installing_windows_server_on_virtualbox.creating_virtual_machines_in_virtualbox.installation-virtual-machine-1-dc')
+    @include('config.installing_windows_server_on_virtualbox.creating_virtual_machines_in_virtualbox.installation-virtual-machine-2-windows-10')
+    @include('config.installing_windows_server_on_virtualbox.creating_virtual_machines_in_virtualbox.overview-virtual-machines')
+    @include('config.installing_windows_server_on_virtualbox.creating_virtual_machines_in_virtualbox.close')
 </div>
