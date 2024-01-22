@@ -70,6 +70,7 @@ Route::prefix('exercises')->name('exercises.')->group(function () {
 Route::prefix('config')->name('config.')->group(function () {
     Route::redirect('/', '/config/installing-windows-10-on-virtual-box');
     Route::view('installing-windows-10-on-virtual-box', 'config.installing-windows-10-on-virtual-box')->name('installing-windows-10-on-virtual-box');
+    Route::view('devops-and-security', 'config.devops-and-security')->name('devops-and-security');
 });
 
 Route::middleware([

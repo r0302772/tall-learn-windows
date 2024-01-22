@@ -16,7 +16,6 @@
                 <li>SonarCloud in your CI/CD pipeline</li>
             </ul>
         </li>
-        <li>SonarCloud in your CI/CD pipeline</li>
         <li>Types of languages</li>
         <li>Getting to know Docker through a Lab</li>
     </ul>
